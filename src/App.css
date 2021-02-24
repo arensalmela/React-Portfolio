@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+/* .Header {
+  background-image: url(/public/Assets/jumbotron.png);
+} */
+
+.jumbotron {
+  padding-top: 20%;
+  padding-bottom: 20%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
