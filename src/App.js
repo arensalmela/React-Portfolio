@@ -1,14 +1,19 @@
 import React from "react"
-import logo from './logo.svg';
 import './App.css';
-import Header from "./components/header"
-import 'bootstrap/dist/css/bootstrap.min.css'
-import AboutMe from "./components/AboutMe"
+import AboutMe from "./components/AboutMe/AboutMe"
+import ProjectCards from "./components/ProjectCards"
+import Jumbotron from "./components/Jumbotron/jumbotron"
+
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Jumbotron/>
+      
+      <div className = "container">
       <AboutMe/>
+      </div>
+      
+      {/* <ProjectCards/> */}
     </div>
   );
 }

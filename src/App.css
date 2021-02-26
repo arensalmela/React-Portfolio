@@ -37,15 +37,10 @@
   }
 }
 
-/* .Header {
-  background-image: url(/public/Assets/jumbotron.png);
-} */
 
 .jumbotron {
-  padding-top: 20%;
-  padding-bottom: 20%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
+  background-image: url("../src/Assets/jumbotron.png");
   background-size: cover;
-  -o-background-size: cover;
+  height: 400px;
+  
 }
