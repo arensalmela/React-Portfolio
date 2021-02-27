@@ -11,9 +11,10 @@ function App() {
       
       <div className = "container">
       <AboutMe/>
+      <ProjectCards/>
       </div>
       
-      {/* <ProjectCards/> */}
+      
     </div>
   );
 }
