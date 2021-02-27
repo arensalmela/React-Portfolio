@@ -9,10 +9,10 @@ function App() {
     <div className="App">
       <Jumbotron/>
       
-      <div className = "container">
+      
       <AboutMe/>
       <ProjectCards/>
-      </div>
+      
       
       
     </div>

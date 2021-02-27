@@ -1,4 +1,5 @@
 import React from "react";
+import Headshot from "../../Assets/Headshot.png"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function AboutMe() {
@@ -6,7 +7,7 @@ function AboutMe() {
     <div className="row">
       <div className="col">
         <img
-          src="../../Assets/Headshot.png"
+          src={Headshot}
           className="float-left"
           alt="Aren Salmela Head Shot"
         />
