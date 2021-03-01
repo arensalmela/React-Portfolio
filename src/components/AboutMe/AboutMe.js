@@ -1,6 +1,7 @@
 import React from "react";
 import Headshot from "../../Assets/Headshot.png"
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../../App.css"
 
 function AboutMe() {
   return (
