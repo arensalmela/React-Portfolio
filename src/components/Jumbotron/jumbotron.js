@@ -9,7 +9,7 @@ function Jumbotron() {
         <div className="col">
           <header>
             <div className="jumbotron jumbotron-fluid">
-              <h1 className="changeFont display-4 float-left">Aren Salmela</h1>
+              <h1 className="changeFont jumboFont display-4 float-left">Aren Salmela</h1>
               <p className="changeFont lead" />
             </div>
           </header>

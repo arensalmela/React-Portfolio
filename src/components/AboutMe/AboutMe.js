@@ -5,11 +5,12 @@ import "../../App.css"
 
 function AboutMe() {
   return (
-    <div className="row">
-      <div className="col">
+    
+    <div className="row pt-3 pl-3 pb-3 pr-3">
+      <div className="col ">
         <img
           src={Headshot}
-          className="float-left"
+          className="float-left  pl-3  pr-3"
           alt="Aren Salmela Head Shot"
         />
         <p className="changeFont newText">
@@ -28,6 +29,7 @@ function AboutMe() {
         </p>
       </div>
     </div>
+    
   );
 }
 
