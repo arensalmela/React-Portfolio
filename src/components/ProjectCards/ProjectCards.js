@@ -10,8 +10,8 @@ function ProjectCards() {
   return (
     <div>
       <div className="col">
-        <div className="row">
-          <div id="portfolio" className="container border-bottom pt-3">
+        <div className="row pt-3 pb-3">
+          <div id="portfolio" className="container border-bottom">
             <div className="page-header">
               <h1 className="newText changeFont">Portfolio &amp; Projects</h1>
             </div>

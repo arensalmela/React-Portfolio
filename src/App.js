@@ -16,7 +16,7 @@ function App() {
   return (
     
     <div className="App">
-    <body>
+    
       <Jumbotron/>
       <Navbar/>
       <div className = "container">
@@ -30,7 +30,7 @@ function App() {
       <Footer/>
       </div>
      
-      </body>
+      
     </div>
     
   );
